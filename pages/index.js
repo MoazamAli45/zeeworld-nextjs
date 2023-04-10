@@ -282,7 +282,7 @@ export default function Home() {
           }}
         >
         
-            <div className="text-center w-[45%]  mx-auto leading-6">
+            <div className="text-center w-[75%] xs:w-[45%]  mx-auto leading-6">
               <h4 className="text-primary text-lg font-semibold">Beleven</h4>
               <h3 className="font-bold text-3xl">Een selectie</h3>
               <p className="text-grey font-normal">
