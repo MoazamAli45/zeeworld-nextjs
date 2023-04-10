@@ -16,7 +16,6 @@ module.exports = {
         grey: "rgba(99, 115, 129, 1)",
         secondary: "rgba(0, 26, 35, 1)",
         green: "rgba(180, 211, 51, 1)",
-      
       },
       transitionTimingFunction: {
         "in-expo": {
@@ -31,7 +30,7 @@ module.exports = {
         "1xl": "900px",
         sm: "240px",
         xs: "600px",
-        'xxs':"780px",
+        xxs: "780px",
         "1xs": "400px",
       },
     },

@@ -216,14 +216,17 @@ export default function Home() {
         onEnter={() => setScroll(true)}
         onExit={() => setScroll(false)}
       >
-        <section className="min-h-[60vh] bg-secondary  px-[3rem]  " id="project">
+        <section
+          className="min-h-[60vh] bg-secondary  px-[3rem]  "
+          id="project"
+        >
           <div className="w-[80%] mx-auto text-center  py-[3rem] ">
             <h3 className="text-lg font-semibold text-green">Ontdekken</h3>
             <h2 className="text-3xl font-bold text-white">
               Er is genoeg te ontdekken{" "}
             </h2>
             {/*                                Contains Projects      */}
-            <div className="w-[99%]  mx-auto flex flex-row flex-wrap justify-around align-middle gap-[3rem] mt-[3rem]">
+            <div className="w-[99%]  mx-auto flex flex-col xs:flex-row flex-wrap justify-around align-middle gap-[3rem] mt-[3rem]">
               <div className=" flex flex-col  gap-[2rem]">
                 {scroll && (
                   <CountUp
@@ -291,42 +294,48 @@ export default function Home() {
         <div className="xxs:min-h-[85vh]  min-h-[120vh] xl:min-h-[80vh] bg-secondary z-[-10]"></div>
       </section>
       {/*                           Stickers Section                                */}
-    <section  className="min-h-[40vh] my-[2rem]">
-      <div className="flex flex-row flex-wrap justify-center gap-[2rem] xs:gap-[4rem] w-[90%] mx-auto z-[100]" >
-       
-          <Image src="/images/stciker1.svg" alt="sticker" width={300} height={185} />
-          <Image src="/images/sticker2.svg" alt="sticker" width={300} height={185} />
-          <Image src="/images/sticker3.svg" alt="sticker" width={300} height={185} />
-        
-        {/* <div className="relative  w-[300px]">
+      <section className="min-h-[40vh] my-[2rem]">
+        <div className="flex flex-row flex-wrap justify-center gap-[2rem] xs:gap-[4rem] w-[90%] mx-auto z-[100]">
+          <Image
+            src="/images/stciker1.svg"
+            alt="sticker"
+            width={300}
+            height={185}
+          />
+          <Image
+            src="/images/sticker2.svg"
+            alt="sticker"
+            width={300}
+            height={185}
+          />
+          <Image
+            src="/images/sticker3.svg"
+            alt="sticker"
+            width={300}
+            height={185}
+          />
+
+          {/* <div className="relative  w-[300px]">
           <Image src="/images/sticker2.svg" alt="sticker" fill className="object-contain" />
           </div>
         <div className="relative  w-[300px]">
           <Image src="/images/sticker3.svg" alt="sticker" fill className="object-contain" />
           </div> */}
-
-
         </div>
       </section>
       {/*  Footer */}
-    <footer className="min-h-[20vh]    p-[1rem]  bg-secondary">
-      <div className="flex flex-row  justify-center text-center xs:text-left flex-wrap xs:justify-between align-middle w-[90%] mx-auto  text-grey font-medium text-base">
-        {/*  Links */}
-        <div className="flex flex-col justify-center 1xs:flex-row flex-wrap text-center xs:text-left 1xs:justify-start align-middle gap-[.7rem] py-[1.5rem]">
-          <Link href="#">
-            Privacy policy
-            </Link>
-          <Link href="#">
-            Legal notice
-            </Link>
-          <Link href="#">
-            Terms of service
-            </Link>
+      <footer className="min-h-[20vh]    p-[1rem]  bg-secondary">
+        <div className="flex flex-row  justify-center text-center xs:text-left flex-wrap xs:justify-between align-middle w-[90%] mx-auto  text-grey font-medium text-base">
+          {/*  Links */}
+          <div className="flex flex-col justify-center 1xs:flex-row flex-wrap text-center xs:text-left 1xs:justify-start align-middle gap-[.7rem] py-[1.5rem]">
+            <Link href="#">Privacy policy</Link>
+            <Link href="#">Legal notice</Link>
+            <Link href="#">Terms of service</Link>
           </div>
           <div>
             <p>© Copyright 2023 - Puur</p>
             <p> Developed by Syed Moazam Ali</p>
-            </div>
+          </div>
         </div>
       </footer>
     </>

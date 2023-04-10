@@ -7,17 +7,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-.MuiButtonBase-root.Mui-selected {
-  color: white;
-}
+
 .MuiButtonBase-root.Mui-selected {
   background-color: #1976d2;
   padding: 0.5rem 1rem;
   border-radius: 40px;
   border: none;
+  color: white;
 }
 @media (min-width: 600px) {
   .MuiButtonBase-root.Mui-selected {
@@ -34,5 +33,4 @@ html{
 .MuiTabList-flexContainer {
   justify-content: center;
   flex-wrap: wrap;
-
 }

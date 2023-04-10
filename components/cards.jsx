@@ -1,8 +1,9 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
+import Image from "next/image";
 const WorkCard = (props) => {
-//  destructing from props
-  const {image}=props;
+  //  destructing from props
+  const { image } = props;
   return (
     <div className="flex flex-col xs:w-[370px] w-[300px]">
       {/*  Images can't be used in tabs */}
