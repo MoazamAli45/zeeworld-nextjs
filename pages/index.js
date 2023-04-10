@@ -143,12 +143,12 @@ export default function Home() {
 
       {/*                                Welcome Section                                          */}
       <section className="min-h-[100vh] py-2rem" id="welcome">
-        <div className=" flex flex-row justify-center align-middle gap-[1rem] mt-[-2rem] xs:mt-[-5rem] ">
+        <div className=" flex flex-row justify-center align-middle gap-[1rem] mt-[-2rem] xs:mt-[-5rem] w-[90%] mx-auto ">
           {data.map((item) => {
             return (
               <div
                 key={item.id}
-                className="w-[50px] h-[50px]  rounded-xl xs:w-[100px] xs:h-[100px] 1xl:w-[165px] 1xl:h-[165px] xs:rounded-3xl bg-primary"
+                className="w-[65px] h-[65px]  rounded-xl xs:w-[100px] xs:h-[100px] 1xl:w-[165px] 1xl:h-[165px] xs:rounded-3xl bg-primary"
               ></div>
             );
           })}
@@ -273,7 +273,7 @@ export default function Home() {
 
       {/*                 Cards Section                                                                  */}
 
-      <section className="min-h-[100vh] py-[2rem]">
+      <section className="min-h-[100vh] py-[4rem]   ">
         <div className="xxs:h-[95vh] h-[190vh] ">
           <div className="min-h-[100vh] z-[100]">
             <div className="text-center w-[45%]  mx-auto leading-6">
@@ -291,7 +291,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="xxs:min-h-[85vh]  min-h-[120vh] xl:min-h-[80vh] bg-secondary z-[-10]"></div>
+        <div className="  xxs:min-h-[85vh]  min-h-[140vh] xl:min-h-[80vh] bg-secondary z-[-10] pb-[2rem]"></div>
       </section>
       {/*                           Stickers Section                                */}
       <section className="min-h-[40vh] my-[2rem]">
@@ -331,7 +331,7 @@ export default function Home() {
       </section>
       {/*  Footer */}
       <footer className="min-h-[20vh]    p-[1rem]  bg-secondary">
-        <div className="flex flex-row  justify-center text-center xs:text-left flex-wrap xs:justify-between align-middle w-[90%] mx-auto  text-grey font-medium text-base">
+        <div className="flex flex-row  justify-center items-center text-center xs:text-left flex-wrap xs:justify-between align-middle w-[90%] mx-auto  text-grey font-medium text-base">
           {/*  Links */}
           <div className="flex flex-col justify-center 1xs:flex-row flex-wrap text-center xs:text-left 1xs:justify-start align-middle gap-[.7rem] py-[1.5rem]">
             <Link href="#">Privacy policy</Link>
