@@ -7,14 +7,22 @@ const WorkCard = (props) => {
   return (
     <div className="flex flex-col xs:w-[370px] w-[300px]">
       {/*  Images can't be used in tabs */}
-      <Avatar
+      {/* <Avatar
         alt="img"
         src={image}
         variant="rounded"
         className="xs:w-[370px]
               xs:h-[300px]  w-[300px] h-[230px] 
               rounded-3xl"
+      /> */}
+      <Image
+        src={image}
+        width={370}
+        height={300}
+        alt=""
+        className="rounded-3xl "
       />
+
       <div className="w-[90%] bg-white mx-auto rounded-3xl py-[1rem] px-[2rem]  text-center shadow-md my-[-4rem] z-[100] leading-6">
         <h4 className="text-primary text-lg font-semibold my-[1rem]">
           Category

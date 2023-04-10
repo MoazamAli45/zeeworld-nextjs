@@ -12,25 +12,26 @@ html {
 }
 
 .MuiButtonBase-root.Mui-selected {
-  background-color: #1976d2;
-  padding: 0.5rem 1rem;
-  border-radius: 40px;
-  border: none;
-  color: white;
+  background-color: #1976d2 !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 40px !important;
+  border: none !important;
+  color: white !important;
 }
 @media (min-width: 600px) {
   .MuiButtonBase-root.Mui-selected {
-    background-color: #1976d2;
-    padding: 1rem 2rem;
-    border-radius: 50px;
-    border: none;
+    background-color: #1976d2 !important;
+    padding: 1rem 2rem !important;
+    border-radius: 50px !important;
+    color: white !important;
+    border: none !important;
   }
 }
 
 .MuiTabs-indicator {
-  display: none;
+  display: none !important;
 }
 .MuiTabList-flexContainer {
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
 }

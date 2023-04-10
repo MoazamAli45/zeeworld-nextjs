@@ -79,7 +79,7 @@ export default function Home() {
             </nav>
             {/*  humburger Icon */}
             <button onClick={toggleDrawer}>
-              <MenuIcon className="1xl:hidden sm:block text-white" />
+              <MenuIcon className="1xl:hidden block text-white" />
             </button>
           </div>
 
@@ -296,12 +296,15 @@ export default function Home() {
       {/*                           Stickers Section                                */}
       <section className="min-h-[40vh] my-[2rem]">
         <div className="flex flex-row flex-wrap justify-center gap-[2rem] xs:gap-[4rem] w-[90%] mx-auto z-[100]">
-          <Image
-            src="/images/stciker1.svg"
-            alt="sticker"
-            width={300}
-            height={185}
-          />
+          <div className="relative w-[300px] h-[185px]">
+            <Image
+              src="/images/stciker1.svg"
+              alt="sticker"
+              fill
+              className="object-contain"
+            />
+          </div>
+
           <Image
             src="/images/sticker2.svg"
             alt="sticker"
