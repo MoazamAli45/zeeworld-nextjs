@@ -273,9 +273,15 @@ export default function Home() {
 
       {/*                 Cards Section                                                                  */}
 
-      <section className="min-h-[100vh] py-[4rem]   ">
-        <div className="xxs:h-[95vh] h-[190vh] ">
-          <div className="min-h-[100vh] z-[100]">
+      <section className="min-h-[120vh] py-[2rem]">
+{/*                       Make a  sharp color gradient         */}
+        <div className="h-[95%] "
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(0,26,35,1) 60%, rgba(0,26,35,1) 100%)",
+          }}
+        >
+        
             <div className="text-center w-[45%]  mx-auto leading-6">
               <h4 className="text-primary text-lg font-semibold">Beleven</h4>
               <h3 className="font-bold text-3xl">Een selectie</h3>
@@ -286,12 +292,12 @@ export default function Home() {
             </div>
             {/*           Tabs                    */}
             {/* flex flex-row justify-center align-center */}
-            <div className=" my-[4rem] 1xl:w-[90%] w-[95%] mx-auto">
+            <div className="pt-[2rem] pb-[6rem] 1xl:w-[90%] w-[95%] mx-auto">
               <ProjectTabs />
             </div>
-          </div>
+        
         </div>
-        <div className="  xxs:min-h-[85vh]  min-h-[140vh] xl:min-h-[80vh] bg-secondary z-[-10] pb-[2rem]"></div>
+        {/* <div className="  xxs:min-h-[85vh]  min-h-[140vh] xl:min-h-[80vh] bg-secondary z-[-10] pb-[2rem]"></div> */}
       </section>
       {/*                           Stickers Section                                */}
       <section className="min-h-[40vh] my-[2rem]">
