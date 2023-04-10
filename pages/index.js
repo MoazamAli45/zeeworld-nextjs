@@ -78,8 +78,8 @@ export default function Home() {
               </div>
             </nav>
             {/*  humburger Icon */}
-            <button onClick={toggleDrawer}>
-              <MenuIcon className="inline xl:hidden  text-white" />
+            <button onClick={toggleDrawer} className="block xl:hidden">
+              <MenuIcon className="  text-white" />
             </button>
           </div>
 
