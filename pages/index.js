@@ -79,7 +79,7 @@ export default function Home() {
             </nav>
             {/*  humburger Icon */}
             <button onClick={toggleDrawer}>
-              <MenuIcon className="1xl:hidden block text-white" />
+              <MenuIcon className="inline xl:hidden  text-white" />
             </button>
           </div>
 
@@ -188,7 +188,7 @@ export default function Home() {
             </div>
           </div>
           {/*  Welcome content */}
-          <div className="basis-[50%] align-middle my-auto text-center xs:text-left">
+          <div className=" w-[90%] mx-auto 1xl:basis-[50%] align-middle my-auto text-center xs:text-left">
             <h4 className="text-primary text-[18px] font-semibold">WELKOM</h4>
             <h3 className="font-bold text-2xl ">Welkom in Zeewolde</h3>
             <p className="font-medium text-xl">
@@ -304,19 +304,22 @@ export default function Home() {
               className="object-contain"
             />
           </div>
-
-          <Image
-            src="/images/sticker2.svg"
-            alt="sticker"
-            width={300}
-            height={185}
-          />
-          <Image
-            src="/images/sticker3.svg"
-            alt="sticker"
-            width={300}
-            height={185}
-          />
+          <div className="relative w-[300px] h-[185px]">
+            <Image
+              src="/images/sticker2.svg"
+              alt="sticker"
+              fill
+              className="object-contain"
+            />
+          </div>
+          <div className="relative w-[300px] h-[185px]">
+            <Image
+              src="/images/sticker3.svg"
+              alt="sticker"
+              fill
+              className="object-contain"
+            />
+          </div>
 
           {/* <div className="relative  w-[300px]">
           <Image src="/images/sticker2.svg" alt="sticker" fill className="object-contain" />

@@ -31,7 +31,18 @@ module.exports = {
         sm: "240px",
         xs: "600px",
         xxs: "780px",
+        xl: "901px",
         "1xs": "400px",
+
+        // //
+
+        // xs: "480px",
+        // sm: "640px",
+        // md: "768px",
+        // mdl: "900px",
+        // lg: "1024px",
+        // xl: "1280px",
+        // xxl: "1350px",
       },
     },
   },

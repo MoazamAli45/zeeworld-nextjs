@@ -31,7 +31,7 @@ html {
 .MuiTabs-indicator {
   display: none !important;
 }
-.MuiTabList-flexContainer {
+.MuiTabs-flexContainer {
   justify-content: center !important;
   flex-wrap: wrap !important;
 }

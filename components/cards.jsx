@@ -28,7 +28,7 @@ const WorkCard = (props) => {
           Category
         </h4>
         <h3 className="font-bold  text-xl my-[1rem]">Lorem Ipsum</h3>
-        <button className="py-[.75rem] px-[2rem] rounded-full text-grey font-normal border-2 border-grey text-sm hover:bg-green hover:text-white transition-colors  duration-100  hover:border-0">
+        <button className="py-[.75rem] px-[2rem] rounded-full text-grey font-normal border-2 border-grey text-sm hover:bg-green hover:text-white transition-colors  duration-100  hover:border-green">
           View Details
         </button>
       </div>
