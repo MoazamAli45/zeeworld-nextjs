@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 import { TabPanel } from "@mui/lab";
 import { TabContext } from "@mui/lab";
 import { TabList } from "@mui/lab";
-import WorkCard from "./cards";
+import WorkCard from "./Cards";
 
 const cards = [
   {
