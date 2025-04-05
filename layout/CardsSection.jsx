@@ -1,6 +1,6 @@
 import React from "react";
 
-import ProjectTabs from "../components/Tabs";
+import ProjectTabs from "../components/tabs";
 const CardsSection = () => {
   return (
     <section className="min-h-[120vh] py-[2rem]">
